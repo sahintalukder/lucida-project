@@ -65,7 +65,7 @@ p{color: #7f7f7f;font-size: 18px;}
 .btn-outline-custom:hover{color: white;background-color: #038ed6;}
 header .row{padding-top: 100px;align-items: center;}
 
-.feature-section{padding: 60px 0;}
+.feature-section{padding: 60px 0;border-bottom: 1px solid #80808036;}
 .heading{text-align: center;margin-bottom: 70px;}
 h2{}
 .heading h3{}
@@ -105,6 +105,151 @@ h2{}
 .about-section .heading{
 	text-align: left;
 }
+.about-section{padding: 70px;border-bottom: 1px solid #80808036;}
 .about-section .heading span{
 	margin: 0;
+	margin-bottom: 30px;
 }
+.about-section .heading  h1{}
+.about-section ul{}
+.about-section ul li{margin-right: 10px;}
+.about-section ul li i{}
+.about-section ul li span{}
+.about-section p{margin: 45px 0;}
+
+.service-section .heading{
+	text-align: left;
+}
+.service-section .heading span{
+	margin-left: initial;
+	margin-bottom: 30px;
+}
+.service-section{padding: 70px;border-bottom: 1px solid #80808036;background-color: #00000005;}
+
+
+.feadback-section{
+	background-image: url('../images/feadback.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 600px;
+	padding: 60px 0;
+
+
+}
+.feadback-section h1{
+	color: #fff;
+}
+.carousel-item{
+	padding-bottom: 150px;
+}
+.carousel-item .col-lg{padding-left: 30px;padding-right: 30px;}
+.carousel-item h5{color: #fff;font-size: 20px;line-height: 1.6;margin-bottom: 30px;}
+.carousel-item .nav{}
+.carousel-item .nav li{margin-right: 20px;}
+.carousel-item .nav li img{border-radius: 50%;}
+.carousel-item .nav li span{color: #fff;display: block;font-size: 14px;}
+.carousel-item .nav li strong{display: block;color: #fff;font-size: 16px;}
+
+
+.carousel-indicators li {
+
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff0;
+    background-clip: padding-box;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    opacity: .5;
+    transition: opacity 0.6s ease;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-radius: 50%;
+
+}
+
+   .carousel-indicators .active {
+
+    opacity: 1;
+    background-color: #fff;
+    transform: scale(1.5);
+
+}
+.download-section{
+	background-color: #000;
+	padding: 40px 0;
+}
+.download-section h2{
+	color: #fff;
+	font-size: 24px;
+}
+
+.pricing{
+	padding: 60px 0;
+}
+.pricing-table{
+	text-align: center;
+
+border: 1px solid #857f824f;
+}
+
+.pricing-table li{padding: 30px 15px;border-bottom: 1px solid #80808054;}
+.pricing-table li h1{font-size: 60px;}
+.pricing-table li h4{font-size: 24px;text-transform: uppercase;font-weight: bold;}
+.pricing-table:hover li h4{
+	color: #007bff;
+}
+.pricing-table:hover h1,.pricing-table:hover span,.pricing-table:hover sup,.pricing-table:hover .order-now {
+	color: #fff;
+
+}
+.pricing-table:hover .price{
+	background-color:#007bff ;
+}
+.pricing-table li p{}
+.pricing-table li p a{}
+.price{}
+.pricing-table:hover .order-now{
+	background-color:#007bff ;
+}
+.order-now{
+	color: #007bff;
+	padding: 10px 18px;
+	text-transform: uppercase;
+	border: 1px solid grey;
+	text-decoration: none;
+}
+.pricing-table li h1 sup{font-size: 38px;color: #535353;top: -2.15rem;}
+.pricing-table li span{color: gray;font-size: 18px;}
+
+.contact-us{
+	padding: 60px 0 0;
+	background-color: #8080801a;
+}
+.info{text-align: center;font-size: 14px;color: #009be0;}
+.info i{font-size: 30px;/*! margin-top: 20px; */}
+.info p{margin-top: 20px;font-size: 16px;}
+
+
+.form{
+	background: #000000e8;
+padding: 60px;
+	transform: translateY(60px);
+}
+.form form{}
+.form .form-group{margin-bottom: 20px;}
+.form .form-group .form-control{background: transparent;border: 1px solid #80808057;padding: 23px 20px;}
+
+
+footer{text-align: center;background-color: #161616;padding: 28px;}
+footer ul{}
+footer ul li{color: #7d7863;display: block;padding: 15px;font-size: 27px;}
+footer ul li a{color: #dcdcdc80;}
+footer ul li a:hover{color: #0064ff;text-decoration: none;}
+footer p{font-size: 20px;}
